@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wmd001.github.io</id>
+    <title>二两大梦</title>
+    <updated>2022-10-24T12:52:39.680Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wmd001.github.io"/>
+    <link rel="self" href="https://wmd001.github.io/atom.xml"/>
+    <logo>https://wmd001.github.io/images/avatar.png</logo>
+    <icon>https://wmd001.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 二两大梦</rights>
+    <entry>
+        <title type="html"><![CDATA[Gridea 同步问题]]></title>
+        <id>https://wmd001.github.io/post/gridea-tong-bu-wen-ti/</id>
+        <link href="https://wmd001.github.io/post/gridea-tong-bu-wen-ti/">
+        </link>
+        <updated>2022-09-08T12:55:55.000Z</updated>
+        <summary type="html"><![CDATA[<p>🤓GitHub同步失败问题解决<br>
+😎借助gitee仓库镜像功能</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>🤓GitHub同步失败问题解决<br>
+😎借助gitee仓库镜像功能</p>
+<!-- more -->
+<h2 id="问题描述">问题描述</h2>
+<p>Gridea 同步到 <code>github pages</code> 的时候，总会遇到同步失败的情况。</p>
+<h2 id="解决办法">解决办法</h2>
+<p>可以通过 <code>Gitee</code> 仓库镜像功能来间接实现同步到github。</p>
+<h3 id="前提准备">前提准备</h3>
+<p>Gitee 上建立一个仓库，用于同步代码<br>
+GitHub 上建立一个仓库，开启 pages 功能</p>
+<h3 id="配置镜像同步">配置镜像同步</h3>
+<p>Gitee 选择仓库，管理，仓库镜像管理（官方文档上说这个功能是限时开放的，限时到2022年8月31日，但是现在已经过期了，我也没有找到另外的说明，所以还是能用的）<br>
+<img src="https://wmd001.github.io/post-images/1662644376029.png" alt="" loading="lazy"><br>
+选择添加镜像，<img src="https://wmd001.github.io/post-images/1662644441186.png" alt="" loading="lazy"><br>
+之后选择<code>gitee -&gt; github</code>方向的push。</p>
+<h3 id="配置gridea">配置Gridea</h3>
+<p>Gridea 配置远程，选择GiteePages，填写配置，测试连接后保存，之后将域名修改为github pages 的地址，保存。<br>
+至此，已经大功告成了。</p>
+<h3 id="同步数据">同步数据</h3>
+<p>直接点击同步按钮就可以，修改域名是为了修改生成html代码里css的引用路径，同步成功后，登陆gitee查看镜像同步情况，更新成功说明已经推送到github。</p>
+<h3 id="可能的问题">可能的问题</h3>
+<p>gitee 更新到github失败，由于gitee推送到github是强制覆盖推送，所以对于受保护分支会失败。可以设置别的分支或者修改保护分支设置 <code>Settings -&gt; Branches -&gt; Branch portection rules -&gt; Edit</code><br>
+<img src="https://wmd001.github.io/post-images/1662646552404.png" alt="" loading="lazy"><br>
+设置允许强制推送，之后点击手动更新，或者gridea上点击同步，稍等片刻，就能看到成功推送到github。</p>
+]]></content>
+    </entry>
+</feed>
