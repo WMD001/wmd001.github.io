@@ -54,6 +54,7 @@ footer:
 # 自定义字体
 style:
   font-family:
+    logo: '"LXGW WenKai Screen", sans-serif'
     body: '"LXGW WenKai Screen", sans-serif'
 
   # 圆角
