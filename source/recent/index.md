@@ -12,9 +12,11 @@ sidebar: [ghuser, search, ghrepo]
 
 本站是[@wmd001](https://github.com/wmd001)的个人站，博主目前主要从事JAVA开发，略懂前端。
 
-{% navbar active:1 [友链](/friends) [动态](/recent) [关于](/about) %}
+{% navbar active:2 [友链](/friends) [动态](/recent) [关于](/about) %}
 
 {% endabout %}
 
 
-{% friends api:https://raw.githubusercontent.com/WMD001/friends/output/v2/data.json %}
+{% timeline api:https://api.github.com/repos/wmd001/wmd001.github.io/issues %}
+
+{% endtimeline %}

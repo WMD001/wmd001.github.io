@@ -10,30 +10,30 @@ sidebar:
     bookmark: '[探索](/bookmark/)'
     friends: '[社交](/friends/)'
   widgets:
-    home: search, welcome, recent
+    home: search, welcome, tagcloud, recent
 
 
 # 页脚
 footer:
 #  左侧联系按钮
-#  social:
-#    github:
-#      icon: '<img src="/assets/placeholder/social/08a41b181ce68.svg"/>'
-#      url: https://
-#    music:
-#      icon: '<img src="/assets/placeholder/social/3845874.svg"/>'
-#      url: https://
+  social:
+    github:
+      icon: '<i class="iconfont icon-githublogo"></i>'
+      url: https://github.com/wmd001
+    talk:
+      icon: '<i class="iconfont icon-xianxingyumaobi"></i>'
+      url: https://wmd001.top/about
 #    unsplash:
 #      icon: '<img src="/assets/placeholder/social/3616429.svg"/>'
 #      url: https://
-#    comments:
-#      icon: '<img src="/assets/placeholder/social/942ebbf1a4b91.svg"/>'
-#      url: https://
+    comments:
+      icon: '<i class="iconfont icon-comments-fill"></i>'
+      url: https://wmd001.top/about/#comments
 
   # 页面底部的站点导航
   sitemap:
     '博客':
-      - '[近期](/)'
+      - '[近期](/recent)'
       - '[分类](/categories/)'
       - '[标签](/tags/)'
       - '[归档](/archives/)'
@@ -84,9 +84,9 @@ comments:
   # https://giscus.app/zh-CN
   giscus:
     data-repo: WMD001/wmd001.github.io # [在此输入仓库]
-    data-repo-id: R_kgDOJL9sYA# [在此输入仓库 ID]
-    data-category: Announcements# [在此输入分类名]
-    data-category-id: DIC_kwDOJL9sYM4CXXTa
+    data-repo-id: R_kgDOKx3QUw # [在此输入仓库 ID]
+    data-category: Announcements # [在此输入分类名]
+    data-category-id: DIC_kwDOKx3QU84CbWnF
     data-mapping: title
     data-strict: 0
     data-reactions-enabled: 1

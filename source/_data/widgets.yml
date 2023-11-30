@@ -24,4 +24,5 @@ welcome:
   title: '欢迎'
   content: 勇敢的人先享受世界。坚持不懈的青春万岁。这是最最最后一次折腾博客主题了。
 
-
+ghrepo:
+  layout: ghrepo

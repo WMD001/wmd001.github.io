@@ -16,7 +16,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
-permalink: :year/:month/:day/:title/
+permalink: :year-:month-:day/:hash/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -111,5 +111,5 @@ deploy:
 inject:
   head:
     - <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
-
-
+    - <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_4346162_z45bku9d1vo.css">
+    - <link rel="stylesheet" href="/css/style.css">
