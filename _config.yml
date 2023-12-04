@@ -113,3 +113,4 @@ inject:
     - <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
     - <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_4346162_z45bku9d1vo.css">
     - <link rel="stylesheet" href="/css/style.css">
+    - <script async src="https://umami-mauve-tau.vercel.app/script.js" data-website-id="d0605b3a-45ea-461e-9ac7-eac30fa8f9b9"></script>
