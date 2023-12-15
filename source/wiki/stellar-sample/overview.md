@@ -1,7 +1,7 @@
 ---
+mermaid: true
 layout: wiki
 wiki: stellar-components
-title: '总览'
 ---
 
 {% quot el:h1 组件总览 %}
@@ -103,6 +103,23 @@ title: '总览'
 
 {% endgrid %}
 
+
+{% grid bg:block %}
+
+<!-- cell left -->
+
+[Mermaid图表]()
+
+```mermaid
+graph LR
+  A(Section A) -->|option 1| B(Section A)
+  B -->|option 2| C(Section C)
+```
+
+<!-- cell right -->
+
+{% endgrid %}
+
 {% quot 数据集合类标签 %}
 
 {% quot 容器类标签 %}
@@ -110,3 +127,8 @@ title: '总览'
 {% quot 表达类标签 %}
 
 
+```mermaid
+graph LR
+  A(Section A) -->|option 1| B(Section A)
+  B -->|option 2| C(Section C)
+```

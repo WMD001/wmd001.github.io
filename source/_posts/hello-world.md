@@ -1,4 +1,5 @@
 ---
+mermaid: true
 title: Hello World
 tags: 
   - hexo
@@ -40,3 +41,10 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+
+```mermaid
+graph LR
+  A(Section A) -->|option 1| B(Section A)
+  B -->|option 2| C(Section C)
+```

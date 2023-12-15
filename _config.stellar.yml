@@ -108,3 +108,11 @@ tag_plugins:
     quote:
       prefix: https://bu.dusays.com/2022/10/24/63567d3e092ff.png
       suffix: https://bu.dusays.com/2022/10/24/63567d3e0ab55.png
+
+plugins:
+  mermaid:
+    enable: true
+    # js: https://unpkg.com/mermaid@9.0.0/dist/mermaid.min.js
+    js: https://cdn.jsdelivr.net/npm/mermaid@v9/dist/mermaid.min.js
+    # Available themes: default | dark | forest | neutral
+    theme: neutral
