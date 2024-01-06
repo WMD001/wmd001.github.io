@@ -1,10 +1,9 @@
 ---
-mermaid: true
 layout: wiki
-wiki: stellar-components
+wiki: stellar-sample
+title: 组件总览
+order: 0
 ---
-
-{% quot el:h1 组件总览 %}
 
 {% quot 表达类标签 %}
 
@@ -12,20 +11,20 @@ wiki: stellar-components
 <!-- cell left -->
 [emoji表情]()
 
-{% ablock color:blue %}
+{% box color:blue %}
 
 {% emoji 爱你 %} {% emoji blobcat ablobcatrainbow %} {% emoji blobcat ablobcatattentionreverse %} {% emoji tieba 滑稽 %}
 
-{% endablock %}
+{% endbox %}
 
 <!-- cell right -->
 [Mark行内文本标记](https://baidu.com)
 
-{% ablock %}
+{% box %}
 
 {% mark 默认 %} {% mark 红 color:red %} {% mark 橙 color:orange %} {% mark 黄 color:yellow %} {% mark 绿 color:green %} 
 
-{% endablock %}
+{% endbox %}
 
 {% endgrid %}
 
@@ -33,25 +32,25 @@ wiki: stellar-components
 {% grid bg:block %}
 
 <!-- cell left -->
-[tag标签]()
+[hashtag标签]()
 
-{% ablock color:blue %}
+{% box color:blue %}
 
-{% tag Stellar https://xaoxuu.com/wiki/stellar/ %}
-{% tag Hexo https://hexo.io/ %}
-{% tag GitHub https://github.com/xaoxuu/ %}
-{% tag Gitea https://git.xaox.cc/ color:green %}
+{% hashtag Stellar https://xaoxuu.com/wiki/stellar/ %}
+{% hashtag Hexo https://hexo.io/ %}
+{% hashtag GitHub https://github.com/xaoxuu/ %}
+{% hashtag Gitea https://git.xaox.cc/ color:green %}
 
-{% endablock %}
+{% endbox %}
 
 <!-- cell right -->
 [image图片标签]()
 
-{% ablock color:blue %}
+{% box color:blue %}
 
 
 
-{% endablock %}
+{% endbox %}
 
 {% endgrid %}
 
@@ -62,17 +61,17 @@ wiki: stellar-components
 
 [quot引用]()
 
-{% ablock color:blue %}
+{% box color:blue %}
 
 {% quot 个人博客 %}
 
-{% endablock %}
+{% endbox %}
 
 <!-- cell right -->
 
 [poetry诗词]()
 
-{% ablock color:blue %}
+{% box color:blue %}
 
 {% poetry 游山西村 author:陆游 footer:诗词节选 %}
 莫笑农家腊酒浑，丰年留客足鸡豚。
@@ -81,7 +80,7 @@ wiki: stellar-components
 从今若许闲乘月，拄杖无时夜叩门。
 {% endpoetry %}
 
-{% endablock %}
+{% endbox %}
 
 {% endgrid %}
 
@@ -103,32 +102,90 @@ wiki: stellar-components
 
 {% endgrid %}
 
+{% box %}
+
+[OKR目标管理]()
+
+{% okr o1 %}
+
+2024年目标，学习一门新语言，完成一个项目
+
+<!-- okr kr1 percent:0.2 status:unfinished -->
+学习go语言
+- 基本语法
+
+<!-- okr kr2 percent:0.1 status:unfinished -->
+Wx_Msg_Notify，windows平台上微信消息通知工具
+- python版开发
+- 界面丰富
+
+{% endokr %}
+
+{% endbox %}
+
+{% box %}
+
+[copy复制行]()
+
+{% copy git:https prefix:$ wmd001.com/wmd001.github.io  %}
+{% copy wmd001.com/wmd001.github.io prefix:$ %}
+
+{% endbox %}
 
 {% grid bg:block %}
 
 <!-- cell left -->
 
-[Mermaid图表]()
+[radio单选]()
 
-```mermaid
-graph LR
-  A(Section A) -->|option 1| B(Section A)
-  B -->|option 2| C(Section C)
-```
+{% radio 未选择 %}
+{% radio checked:true 已选择 %}
 
 <!-- cell right -->
 
+[checkbox复选]()
+
+{% checkbox 普通的没有勾选的复选框 %}
+{% checkbox checked:true 普通的已勾选的复选框 %}
+{% checkbox symbol:plus color:green checked:true 显示为加号的绿色的已勾选的复选框 %}
+{% checkbox symbol:minus color:yellow checked:true 显示为减号的黄色的已勾选的复选框 %}
+{% checkbox symbol:times color:red checked:true 显示为乘号的红色的已勾选的复选框 %}
+
 {% endgrid %}
+
+{% grid bg:block %}
+
+<!-- cell left -->
+
+[navbar导航栏]()
+
+{% navbar active:/wiki/ [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
+
+
+<!-- cell right -->
+
+[文本修饰标签集]()
+
+- 这是 {% psw 密码 %} 标签
+- 这是 {% u 下划线 %} 标签
+- 这是 {% emp 着重号 %} 标签
+- 这是 {% wavy 波浪线 %} 标签
+- 这是 {% del 删除线 %} 标签
+- 这是 {% sup 上角标 color:red %} 标签
+- 这是 {% sub 下角标 %} 标签
+- 这是 {% kbd 键盘样式 %} 标签，试一试：{% kbd ⌘ %} + {% kbd D %}
+
+{% endgrid %}
+
+{% box %}
+
+[frame设备框架]()
+{% frame iphone11 img:/assets/wiki/prohud/toast/demo-loading.png video:/assets/wiki/prohud/toast/demo-loading.mp4 focus:top %}
+
+{% endbox %}
 
 {% quot 数据集合类标签 %}
 
 {% quot 容器类标签 %}
 
 {% quot 表达类标签 %}
-
-
-```mermaid
-graph LR
-  A(Section A) -->|option 1| B(Section A)
-  B -->|option 2| C(Section C)
-```
