@@ -1,0 +1,44 @@
+- title: 白描网页版
+  url: https://web.baimiaoapp.com/
+  avatar: https://xlimage.uzero.cn/shinescan/res/favicon.ico
+  description: 图片文字识别，电子表格识别，图片转Excel，pdf转word
+- title: JSON Online Editor
+  url: https://jsoneditoronline.org/
+  avatar: https://jsoneditoronline.org/favicon.png
+  description: 在线JSON编辑器，json对比
+- title: 随机密码生成
+  url: https://www.avast.com/zh-cn/random-password-generator#pc
+  avatar: https://static3.avast.com/10003274/web/i/v2/components/logos/avast-logos/seo/favicon.ico?v=2
+  description: 生成高强度随机密码
+- title: logo生成
+  url: https://www.logoly.pro/#/
+  avatar: https://www.logoly.pro/favicon.ico
+  description: 简易在线logo生成
+- title: 音频剪切
+  url: https://tool.lu/audiocutter/
+  avatar: https://tool.lu/favicon.ico
+  description: 在线工具合集，除了音频剪切之外还有其他的工具
+- title: 在线cron表达式生成
+  url: https://www.aconvert.com/favicon.ico
+  avatar:
+  description: 在线cron表达式生成
+- title: 贷款计算器
+  url: https://fin.paas.cmbchina.com/fininfo/calloanper
+  avatar: https://fin.paas.cmbchina.com/cmb.ico
+  description: 招商银行，个人贷款计算器
+- title: Aconvert
+  url: https://www.aconvert.com/cn/
+  avatar: https://www.aconvert.com/favicon.ico
+  description: word、图片等转pdf，图片类型转换，音频类型转换，视频转换
+- title: ChatGPT
+  url: https://gpt.91chat-ai.cn/chat/64f065bfbbb4cf79a83586ef
+  avatar: https://gpt.91chat-ai.cn/favicon.svg
+  description: 免费chat gpt
+- title: it-tools
+  url: https://it-tools.tech/
+  avatar: https://it-tools.tech/favicon.ico
+  description: IT工具箱
+- title: Cover view
+  url: https://codex.fool-country.online/
+  avatar: https://codex.fool-country.online/logo.png
+  description: 博客封面图生成

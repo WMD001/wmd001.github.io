@@ -17,7 +17,7 @@ menubar:
       url: / # 跳转链接，支持相对路径和绝对路径
     - id: wiki
       theme: '#3DC550'
-      icon: solar:notebook-explore-bold-duotone
+      icon: solar:notebook-bookmark-bold-duotone
       title: 文档
       url: /wiki/
     - id: explore
@@ -30,14 +30,6 @@ menubar:
       icon: solar:chat-square-like-bold-duotone
       title: 社交
       url: /friends/
-sidebar:
-  menu:
-    post: '[btn.blog](/)'
-    wiki: '[btn.wiki](/wiki/)'
-    bookmark: '[探索](/explore/)'
-    friends: '[社交](/friends/)'
-  widgets:
-    home: search, welcome, tagcloud, recent
 
 search:
   service: local_search # local_search, todo...
@@ -157,3 +149,8 @@ plugins:
     js: https://cdn.jsdelivr.net/npm/mermaid@v9/dist/mermaid.min.js
     # Available themes: default | dark | forest | neutral
     theme: neutral
+
+site_tree:
+  home:
+    leftbar: welcome, new-friend, recent
+    rightbar: xingzuo, timeline

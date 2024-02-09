@@ -40,5 +40,30 @@ recent:
   rss: # /atom.xml # npm i hexo-generator-feed
   limit: 5 # Count of posts
 
-  related:
-    layout: related
+related:
+  layout: related
+
+new-friend:
+  layout: markdown
+  title: 互换友链
+  linklist:
+    columns: 1
+    items:
+      - icon: go
+        title: 立即前往
+        url: https://github.com/WMD001/friends/issues/new?assignees=&labels=&projects=&template=template_friend.yaml
+  content: 如有意向互换友链，可前往我的友链仓库进行自助添加。
+
+
+timeline:
+  layout: timeline
+  title: 近期动态
+  api: https://api.github.com/repos/wmd001/wmd001.github.io/issues
+  user: # 默认显示所有人的数据，设置名称可过滤为仅显示某人的数据，多个名称用英文逗号隔开，不要加空格
+  type: # 默认不用写，如果是友链朋友圈数据请写 fcircle
+  limit: # 默认通过 api 上增加 per_page 来设置，如果是友链朋友圈，可通过这个设置数量
+
+xingzuo:
+  layout: markdown
+  title: 关于星座
+  content: 首先我不信星座，其次我是水瓶座。

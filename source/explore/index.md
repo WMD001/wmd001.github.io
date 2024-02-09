@@ -1,16 +1,19 @@
 ---
 menu_id: explore
+title: 探索
+banner_info:
+  title: 探索·收藏
+  subtitle: 互联网资源收藏
 ---
 
-{% quot GitHub Stars %}
+{% quot icon:hashtag el:h2 在线工具 %}
 
-{% timeline api:https://api.github.com/repos/wmd001/issues-json-generator/issues %}
+{% sites Utilities %}
 
-{% endtimeline %}
-
-{% quot icon:hashtag 技术学习 %}
-
-
-{% quot icon:quote el:h5 技术学习 %}
+{% quot icon:hashtag el:h2 技术学习 %}
 
 {% sites Tech-Learning %}
+
+{% quot icon:hashtag el:h2 开源项目 %}
+
+{% sites OpenSourceTools %}
