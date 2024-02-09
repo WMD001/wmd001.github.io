@@ -1,5 +1,5 @@
 ---
-menu_id: bookmark
+menu_id: explore
 ---
 
 {% quot GitHub Stars %}

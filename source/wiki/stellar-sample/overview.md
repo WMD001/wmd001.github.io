@@ -8,8 +8,8 @@ order: 0
 {% quot 表达类标签 %}
 
 {% grid bg:block %}
-<!-- cell left -->
-[emoji表情]()
+<!-- cell -->
+[emoji表情](emoji.html)
 
 {% box color:blue %}
 
@@ -17,7 +17,7 @@ order: 0
 
 {% endbox %}
 
-<!-- cell right -->
+<!-- cell -->
 [Mark行内文本标记](https://baidu.com)
 
 {% box %}
@@ -31,7 +31,7 @@ order: 0
 
 {% grid bg:block %}
 
-<!-- cell left -->
+<!-- cell  -->
 [hashtag标签]()
 
 {% box color:blue %}
@@ -43,7 +43,7 @@ order: 0
 
 {% endbox %}
 
-<!-- cell right -->
+<!-- cell  -->
 [image图片标签]()
 
 {% box color:blue %}
@@ -57,7 +57,7 @@ order: 0
 
 {% grid bg:block %}
 
-<!-- cell left -->
+<!-- cell  -->
 
 [quot引用]()
 
@@ -67,7 +67,7 @@ order: 0
 
 {% endbox %}
 
-<!-- cell right -->
+<!-- cell  -->
 
 [poetry诗词]()
 
@@ -86,7 +86,7 @@ order: 0
 
 {% grid bg:block %}
 
-<!-- cell left -->
+<!-- cell  -->
 
 [note备注块]()
 
@@ -94,7 +94,7 @@ order: 0
 
 {% note color:blue 标题 这是一段彩色的备注块 %}
 
-<!-- cell right -->
+<!-- cell  -->
 
 [link链接标签]()
 
@@ -134,14 +134,14 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 {% grid bg:block %}
 
-<!-- cell left -->
+<!-- cell  -->
 
 [radio单选]()
 
 {% radio 未选择 %}
 {% radio checked:true 已选择 %}
 
-<!-- cell right -->
+<!-- cell  -->
 
 [checkbox复选]()
 
@@ -155,14 +155,14 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 {% grid bg:block %}
 
-<!-- cell left -->
+<!-- cell  -->
 
 [navbar导航栏]()
 
 {% navbar active:/wiki/ [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
 
 
-<!-- cell right -->
+<!-- cell  -->
 
 [文本修饰标签集]()
 

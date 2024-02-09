@@ -1,21 +1,55 @@
+logo:
+  subtitle: '我心无拘，吾道无穷 | 勇敢的人先享受世界'
+
+
 # 自动为文章生成封面
 article:
   auto_cover: false
 
 # 主导航栏
+menubar:
+  columns: 4 #一行多少个
+  items:
+    - id: post # 页面中高亮的 menu_id
+      theme: '#1BCDFC' # 高亮时的颜色，仅 svg 中 fill="currentColor" 时有效
+      icon: solar:documents-bold-duotone # 支持 svg/img 标签，可以定义在 icons.yml 文件中，也支持外部图片的 URL
+      title: 博客 # 标题
+      url: / # 跳转链接，支持相对路径和绝对路径
+    - id: wiki
+      theme: '#3DC550'
+      icon: solar:notebook-explore-bold-duotone
+      title: 文档
+      url: /wiki/
+    - id: explore
+      theme: '#FA6400'
+      icon: solar:planet-bold-duotone
+      title: 探索
+      url: /explore/
+    - id: social
+      theme: '#F44336'
+      icon: solar:chat-square-like-bold-duotone
+      title: 社交
+      url: /friends/
 sidebar:
   menu:
     post: '[btn.blog](/)'
     wiki: '[btn.wiki](/wiki/)'
-    bookmark: '[探索](/bookmark/)'
+    bookmark: '[探索](/explore/)'
     friends: '[社交](/friends/)'
   widgets:
     home: search, welcome, tagcloud, recent
 
+search:
+  service: local_search # local_search, todo...
+  local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+    field: all # post, page, all
+    path: /search.json # 搜索文件存放位置
+    content: true # 是否搜索内容
+    codeblock: true # 是否搜索代码块（需要content: true)
 
 # 页脚
 footer:
-#  左侧联系按钮
+  #  左侧联系按钮
   social:
     github:
       icon: '<i class="iconfont icon-githublogo"></i>'
@@ -23,9 +57,9 @@ footer:
     talk:
       icon: '<i class="iconfont icon-xianxingyumaobi"></i>'
       url: https://wmd001.top/about
-#    unsplash:
-#      icon: '<img src="/assets/placeholder/social/3616429.svg"/>'
-#      url: https://
+    #    unsplash:
+    #      icon: '<img src="/assets/placeholder/social/3616429.svg"/>'
+    #      url: https://
     comments:
       icon: '<i class="iconfont icon-comments-fill"></i>'
       url: https://wmd001.top/about/#comments
@@ -51,8 +85,15 @@ footer:
   # 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。
 
 
-# 自定义字体
 style:
+
+  # 侧边栏背景图设置
+  sidebar:
+    # background: 'linear-gradient(to bottom, #20E2D744, #F9FEA544)'
+    background: 'url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.13/image/sidebar-bg1@small.jpg)'
+    blur: true # 在图片上层增加高斯模糊效果（同时附带饱和度增强效果）
+
+  # 自定义字体
   font-family:
     logo: '"LXGW WenKai Screen", sans-serif'
     body: '"LXGW WenKai Screen", sans-serif'

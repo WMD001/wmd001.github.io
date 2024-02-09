@@ -1,16 +1,16 @@
-
 name: Stellar-components
 title: Stellar组件速查
-subtitle: 'hexo主题stellar标签速查'
+subtitle: 'Stellar-components | hexo主题stellar标签速查'
 tags: 博客主题
 icon: /assets/wiki/stellar-sample/icon.svg
 cover: /assets/wiki/stellar-sample/icon.svg
 description: Stellar 是一个内置 wiki 系统的 hexo 主题，适合综合型站点使用。同时也拥有简约而精美的视觉设计和丰富的标签插件，本文对标签组件进行详细梳理，帮助您简单从容地应对各种场合。
 repo: WMD001/wmd001.github.io
-sidebar:
-	- search
+search:
+  filter: /wiki/stellar-sample
+  placeholder: 在Stellar-sample中搜索...
+leftbar:
   - toc
-  - related
 comment_title: '有问题可在评论区交流'
 comment:
   service: giscus
@@ -18,6 +18,10 @@ comment:
     data-repo: WMD001/wmd001.github.io
     data-mapping: number
     data-term: 226
-path: /wiki/stellar-sample
+base_dir: /wiki/stellar-sample/
 toc:
-	- overview
+  '组件总览':
+    - overview
+  '表达类标签':
+    - emoij
+    - mark

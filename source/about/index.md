@@ -2,10 +2,17 @@
 menu_id: friends
 header: false
 sidebar: [ghuser, search, ghrepo]
-repo: wmd001/let-code
+banner: /assets/logo.png
+title: WMD001
+description: 一个非典型程序员
 ---
 
-{% about %}
+{% banner WMD001 一个非典型程序员 avatar:/assets/avatar.png %}
+
+{% navbar active:3 [友链](/friends) [动态](/recent) [关于](/about) %}
+
+{% endbanner %}
+
 
 <img height="32px" alt="XAOXUU" src="/assets/logo.png">
 
@@ -13,9 +20,6 @@ repo: wmd001/let-code
 
 本站是[@wmd001](https://github.com/wmd001)的个人站，博主目前主要从事JAVA开发，略懂前端。
 
-{% navbar active:3 [友链](/friends) [动态](/recent) [关于](/about) %}
-
-{% endabout %}
 
 {% quot 关于本站 %}
 
