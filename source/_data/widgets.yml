@@ -67,3 +67,15 @@ xingzuo:
   layout: markdown
   title: 关于星座
   content: 首先我不信星座，其次我是水瓶座。
+
+social:
+  layout: linklist
+  title: 社交
+  columns: 1
+  items:
+    - title: 交换友链
+      url: /friends
+    - title: 关于本站
+      url: /about
+    - title: 最近动态
+      url: /recent

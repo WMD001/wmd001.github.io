@@ -1,6 +1,6 @@
 ---
 menu_id: social
-leftbar: [recent]
+leftbar: [social]
 rightbar: [new-friend]
 title: 友链
 banner: /assets/banner.jpg

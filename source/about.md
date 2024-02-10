@@ -1,13 +1,12 @@
 ---
 menu_id: social
-sidebar: [ghuser, search, ghrepo]
 banner: /assets/banner.jpg
 title: 关于
 h1: 不夜侯
 banner_info:
   avatar: /assets/avatar.png
   subtitle: 一个非典型程序员
-leftbar: [recent, timeline]
+leftbar: [social, recent]
 rightbar: [xingzuo, new-friend, toc]
 ---
 
