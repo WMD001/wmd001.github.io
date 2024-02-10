@@ -9,8 +9,6 @@ repo: WMD001/wmd001.github.io
 search:
   filter: /wiki/stellar-sample
   placeholder: 在Stellar-sample中搜索...
-leftbar:
-  - toc
 comment_title: '有问题可在评论区交流'
 comment:
   service: giscus
@@ -23,5 +21,22 @@ toc:
   '组件总览':
     - overview
   '表达类标签':
-    - emoij
+    - emoji
+    - icon
     - mark
+    - hashtag
+    - image
+    - quot
+    - poerty
+    - note
+    - link
+    - button
+    - okr
+    - copy
+    - radio
+    - checkbox
+    - audio
+    - video
+    - navbar
+    - frame
+    - inline-labels

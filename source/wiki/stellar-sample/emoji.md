@@ -1,4 +1,5 @@
 ---
+layout: wiki
 wiki: stellar-sample
 title: emoji表情
 ---

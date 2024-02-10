@@ -1,7 +1,10 @@
 ---
+layout: wiki
 wiki: stellar-sample
 title: Mark标记标签
 ---
+
+{% quot icon:hashtag el:h2 效果示例 %}
 
 {% tabs align:center %}
 
@@ -37,3 +40,9 @@ title: Mark标记标签
 ```
 
 {% endtabs %}
+
+{% quot icon:hashtag el:h2 参数说明 %}
+
+| 参数    | 说明                                                                                              |
+|-------|-------------------------------------------------------------------------------------------------|
+| color | red \| orange \| yellow \| green \| cyan \| blue \| purple \| light \| dark \| warning \| error |

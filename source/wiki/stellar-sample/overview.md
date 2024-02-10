@@ -2,14 +2,13 @@
 layout: wiki
 wiki: stellar-sample
 title: 组件总览
-order: 0
 ---
 
 {% quot 表达类标签 %}
 
 {% grid bg:block %}
 <!-- cell -->
-[emoji表情](emoji.html)
+[emoji表情](emoji)
 
 {% box color:blue %}
 
@@ -18,7 +17,7 @@ order: 0
 {% endbox %}
 
 <!-- cell -->
-[Mark行内文本标记](https://baidu.com)
+[Mark行内文本标记](mark)
 
 {% box %}
 
