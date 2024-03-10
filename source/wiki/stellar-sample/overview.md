@@ -8,7 +8,7 @@ title: 组件总览
 
 {% grid bg:block %}
 <!-- cell -->
-[emoji表情](emoji)
+[emoji表情](emoji.html)
 
 {% box color:blue %}
 
@@ -17,7 +17,7 @@ title: 组件总览
 {% endbox %}
 
 <!-- cell -->
-[Mark行内文本标记](mark)
+[Mark行内文本标记](mark.html)
 
 {% box %}
 
@@ -31,7 +31,7 @@ title: 组件总览
 {% grid bg:block %}
 
 <!-- cell  -->
-[hashtag标签]()
+[hashtag标签](hashtag.html)
 
 {% box color:blue %}
 
@@ -43,7 +43,7 @@ title: 组件总览
 {% endbox %}
 
 <!-- cell  -->
-[image图片标签]()
+[image图片标签](image.html)
 
 {% box color:blue %}
 
@@ -58,7 +58,7 @@ title: 组件总览
 
 <!-- cell  -->
 
-[quot引用]()
+[quot引用](quot.html)
 
 {% box color:blue %}
 
@@ -68,7 +68,7 @@ title: 组件总览
 
 <!-- cell  -->
 
-[poetry诗词]()
+[poetry诗词](poetry.html)
 
 {% box color:blue %}
 
@@ -87,7 +87,7 @@ title: 组件总览
 
 <!-- cell  -->
 
-[note备注块]()
+[note备注块](note.html)
 
 {% note 标题 这是一段备注块 %}
 
@@ -95,7 +95,7 @@ title: 组件总览
 
 <!-- cell  -->
 
-[link链接标签]()
+[link链接标签](link.html)
 
 {% link https://xaoxuu.com/blog/20221029/ desc:true %}
 
@@ -103,7 +103,7 @@ title: 组件总览
 
 {% box %}
 
-[OKR目标管理]()
+[OKR目标管理](okr.html)
 
 {% okr o1 %}
 
@@ -124,7 +124,7 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 {% box %}
 
-[copy复制行]()
+[copy复制行](copy.html)
 
 {% copy git:https prefix:$ wmd001.com/wmd001.github.io  %}
 {% copy wmd001.com/wmd001.github.io prefix:$ %}
@@ -135,14 +135,14 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 <!-- cell  -->
 
-[radio单选]()
+[radio单选](radio.html)
 
 {% radio 未选择 %}
 {% radio checked:true 已选择 %}
 
 <!-- cell  -->
 
-[checkbox复选]()
+[checkbox复选](checkbox.html)
 
 {% checkbox 普通的没有勾选的复选框 %}
 {% checkbox checked:true 普通的已勾选的复选框 %}
@@ -156,14 +156,14 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 <!-- cell  -->
 
-[navbar导航栏]()
+[navbar导航栏](navbar.html)
 
 {% navbar active:/wiki/ [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
 
 
 <!-- cell  -->
 
-[文本修饰标签集]()
+[文本修饰标签集](inline-labels.html)
 
 - 这是 {% psw 密码 %} 标签
 - 这是 {% u 下划线 %} 标签
@@ -178,7 +178,7 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 {% box %}
 
-[frame设备框架]()
+[frame设备框架](frame.html)
 {% frame iphone11 img:/assets/wiki/prohud/toast/demo-loading.png video:/assets/wiki/prohud/toast/demo-loading.mp4 focus:top %}
 
 {% endbox %}
