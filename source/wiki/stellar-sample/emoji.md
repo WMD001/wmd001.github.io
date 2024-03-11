@@ -4,7 +4,7 @@ wiki: stellar-sample
 title: emoji表情
 ---
 
-# QQ Emoji
+## QQ Emoji
 
 | 表情              | 索引  | 表情              | 索引 | 表情             | 索引 | 表情              | 索引  | 表情              | 索引  |
 |-----------------|-----|-----------------|----|----------------|----|-----------------|-----|-----------------|-----|
@@ -22,6 +22,6 @@ title: emoji表情
 | {% emoji 啤酒 %}  | 啤酒  | {% emoji 拳头 %}  | 拳头 | {% emoji 鼓掌 %} | 鼓掌 | {% emoji 礼物 %}  | 礼物  | {% emoji 呲牙 %}  | 呲牙  |
 | {% emoji 激动 %}  | 激动  | {% emoji 飞吻 %}  | 飞吻 | {% emoji 亲亲 %} | 亲亲 | {% emoji 大哭 %}  | 大哭  |
 
-# BlobCat
+## BlobCat
 
 {% emoji blobcat ablobcathyper %}
