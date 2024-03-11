@@ -74,8 +74,8 @@ social:
   columns: 1
   items:
     - title: 交换友链
-      url: /friends
+      url: /friends/
     - title: 关于本站
-      url: /about
+      url: /about/
     - title: 最近动态
-      url: /recent
+      url: /recent/
