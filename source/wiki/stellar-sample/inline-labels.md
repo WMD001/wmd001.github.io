@@ -4,7 +4,7 @@ wiki: stellar-sample
 title: 文本修饰标签集
 ---
 
-{% quot icon:hashtag el:h2 效果示例 %}
+{% quot icon:hashtag el:h2 基础用法 %}
 
 {% grid c:2 %}
 

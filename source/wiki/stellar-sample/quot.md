@@ -4,7 +4,7 @@ wiki: stellar-sample
 title: quot 引用
 ---
 
-## 效果示例
+## 基础用法
 
 适合居中又醒目的标题
 
@@ -16,9 +16,8 @@ title: quot 引用
 
 其中自定义引号素材在主题配置文件的`tag_plugins.quot`中配置：
 
-{% box _config-stellar.yml %}
 
-```yaml
+```yaml  _config.stellar.yml
 tag_plugins:
   quot:
     default: # 可以自行配置多种图标方案
@@ -31,15 +30,14 @@ tag_plugins:
       suffix: https://bu.dusays.com/2022/10/24/63567d3e0ab55.png
 ```
 
-{% endbox %}
 
-### 使用任意图标
+## 使用任意图标
 
 从 1.26.5 版本开始，您可以通过 prefix 或 suffix 参数设置任意图标或图片，支持 URL 或 icons.yml 文件中配置，例如：
 
 {% quot prefix:ph:seal-question-fill 图标示例 %}
 
-## 参数说明
+## 属性
 
 |参数|说明|
 |---|---|
