@@ -27,6 +27,9 @@ welcome:
 ghrepo:
   layout: ghrepo
 
+tree:
+  layout: tree
+
 toc:
   layout: toc
   list_number: false # 是否显示序号

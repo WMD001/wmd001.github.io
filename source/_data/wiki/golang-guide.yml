@@ -1,0 +1,30 @@
+name: Golang-Guide
+title: Golang指南
+subtitle: 'Golang编程指南'
+tags: 编程语言
+icon: /assets/wiki/golang-guide/favicon-gopher.svg
+cover: /assets/wiki/golang-guide/icon.svg
+coverpage: true
+description: Go 富有表现力、简洁、干净且高效。它的并发机制使编写程序变得容易，从而充分利用多核和网络机器，而其新颖的类型系统则实现了灵活和模块化的程序构建。Go 可以快速编译为机器代码，但具有垃圾回收的便利性和运行时反射的强大功能。它是一种快速的、静态类型的编译语言，感觉就像一种动态类型的解释型语言。
+repo: WMD001/hello-go
+search:
+  filter: /wiki/golang-guide
+  placeholder: 在golang-guide中搜索...
+comment_title: '有问题可在评论区交流'
+comment:
+  service: giscus
+  giscus:
+    data-repo: WMD001/hello-go
+    data-mapping: number
+    data-term: 226
+base_dir: /wiki/golang-guide/
+tree:
+  '基础':
+    - basic
+    - syntax
+    - structures
+  '方法和接口':
+    - methods
+    - interfaces
+  '并发':
+    - concurrency
