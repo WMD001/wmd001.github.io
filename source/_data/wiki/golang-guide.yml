@@ -18,11 +18,11 @@ comment:
     data-mapping: number
     data-term: 226
 base_dir: /wiki/golang-guide/
-tree:
+toc:
   '基础':
     - basic
-    - syntax
-    - structures
+    - flow-control
+    - more-types
   '方法和接口':
     - methods
     - interfaces
