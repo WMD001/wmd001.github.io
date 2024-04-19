@@ -4,6 +4,10 @@ wiki: stellar-sample
 title: emoji表情
 ---
 
+## 基础用法
+
+
+
 ## QQ Emoji
 
 | 表情              | 索引  | 表情              | 索引 | 表情             | 索引 | 表情              | 索引  | 表情              | 索引  |

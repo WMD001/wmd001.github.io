@@ -16,6 +16,15 @@ title: 组件总览
 
 {% endbox %}
 
+
+<!-- cell -->
+[icon图标标签](icon.html)
+{% box %}
+
+{% icon solar:documents-bold-duotone %}{% icon solar:chat-square-like-bold-duotone %}{% icon solar:planet-bold-duotone %}{% icon solar:notebook-bookmark-bold-duotone %}
+
+{% endbox %}
+
 <!-- cell -->
 [Mark行内文本标记](mark.html)
 
@@ -24,11 +33,6 @@ title: 组件总览
 {% mark 默认 %} {% mark 红 color:red %} {% mark 橙 color:orange %} {% mark 黄 color:yellow %} {% mark 绿 color:green %} 
 
 {% endbox %}
-
-{% endgrid %}
-
-
-{% grid bg:block %}
 
 <!-- cell  -->
 [hashtag标签](hashtag.html)
@@ -50,11 +54,6 @@ title: 组件总览
 
 
 {% endbox %}
-
-{% endgrid %}
-
-
-{% grid bg:block %}
 
 <!-- cell  -->
 
@@ -81,10 +80,6 @@ title: 组件总览
 
 {% endbox %}
 
-{% endgrid %}
-
-{% grid bg:block %}
-
 <!-- cell  -->
 
 [note备注块](note.html)
@@ -93,11 +88,15 @@ title: 组件总览
 
 {% note color:blue 标题 这是一段彩色的备注块 %}
 
-<!-- cell  -->
+<!-- cell -->
 
 [link链接标签](link.html)
 
 {% link https://xaoxuu.com/blog/20221029/ desc:true %}
+
+<!-- cell -->
+[button按钮](button.html)
+{% button 探索 https://github.com/xaoxuu/hexo-theme-stellar icon:solar:planet-bold-duotone %}
 
 {% endgrid %}
 
@@ -150,9 +149,6 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 {% checkbox symbol:minus color:yellow checked:true 显示为减号的黄色的已勾选的复选框 %}
 {% checkbox symbol:times color:red checked:true 显示为乘号的红色的已勾选的复选框 %}
 
-{% endgrid %}
-
-{% grid bg:block %}
 
 <!-- cell  -->
 

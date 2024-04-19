@@ -28,7 +28,7 @@ toc:
     - hashtag
     - image
     - quot
-    - poerty
+    - poetry
     - note
     - link
     - button
@@ -41,3 +41,22 @@ toc:
     - navbar
     - frame
     - inline-labels
+  '数据类标签':
+    - timeline
+    - friends
+    - sites
+    - md
+    - ghcard
+    - toc
+  '容器类标签':
+    - box
+    - folding
+    - folders
+    - tabs
+    - grid
+    - gallery
+    - albums
+    - posters
+    - banner
+    - about
+    - swiper
