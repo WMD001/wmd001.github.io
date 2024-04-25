@@ -8,7 +8,7 @@ title: 组件总览
 
 {% grid bg:block %}
 <!-- cell -->
-[emoji表情](emoji.html)
+[emoji表情](../emoji/)
 
 {% box color:blue %}
 
@@ -18,7 +18,7 @@ title: 组件总览
 
 
 <!-- cell -->
-[icon图标标签](icon.html)
+[icon图标标签](../icon/)
 {% box %}
 
 {% icon solar:documents-bold-duotone %}{% icon solar:chat-square-like-bold-duotone %}{% icon solar:planet-bold-duotone %}{% icon solar:notebook-bookmark-bold-duotone %}
@@ -26,16 +26,16 @@ title: 组件总览
 {% endbox %}
 
 <!-- cell -->
-[Mark行内文本标记](mark.html)
+[Mark行内文本标记](../mark/)
 
 {% box %}
 
-{% mark 默认 %} {% mark 红 color:red %} {% mark 橙 color:orange %} {% mark 黄 color:yellow %} {% mark 绿 color:green %} 
+{% mark 默认 %} {% mark 红 color:red %} {% mark 橙 color:orange %} {% mark 黄 color:yellow %} {% mark 绿 color:green %}
 
 {% endbox %}
 
 <!-- cell  -->
-[hashtag标签](hashtag.html)
+[hashtag标签](../hashtag/)
 
 {% box color:blue %}
 
@@ -47,7 +47,7 @@ title: 组件总览
 {% endbox %}
 
 <!-- cell  -->
-[image图片标签](image.html)
+[image图片标签](../image/)
 
 {% box color:blue %}
 
@@ -57,7 +57,7 @@ title: 组件总览
 
 <!-- cell  -->
 
-[quot引用](quot.html)
+[quot引用](../quot/)
 
 {% box color:blue %}
 
@@ -67,7 +67,7 @@ title: 组件总览
 
 <!-- cell  -->
 
-[poetry诗词](poetry.html)
+[poetry诗词](../poetry/)
 
 {% box color:blue %}
 
@@ -82,7 +82,7 @@ title: 组件总览
 
 <!-- cell  -->
 
-[note备注块](note.html)
+[note备注块](../note/)
 
 {% note 标题 这是一段备注块 %}
 
@@ -90,19 +90,19 @@ title: 组件总览
 
 <!-- cell -->
 
-[link链接标签](link.html)
+[link链接标签](../link/)
 
 {% link https://xaoxuu.com/blog/20221029/ desc:true %}
 
 <!-- cell -->
-[button按钮](button.html)
+[button按钮](../button/)
 {% button 探索 https://github.com/xaoxuu/hexo-theme-stellar icon:solar:planet-bold-duotone %}
 
 {% endgrid %}
 
 {% box %}
 
-[OKR目标管理](okr.html)
+[OKR目标管理](../okr/)
 
 {% okr o1 %}
 
@@ -123,7 +123,7 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 {% box %}
 
-[copy复制行](copy.html)
+[copy复制行](../copy/)
 
 {% copy git:https prefix:$ wmd001.com/wmd001.github.io  %}
 {% copy wmd001.com/wmd001.github.io prefix:$ %}
@@ -134,14 +134,14 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 <!-- cell  -->
 
-[radio单选](radio.html)
+[radio单选](../radio/)
 
 {% radio 未选择 %}
 {% radio checked:true 已选择 %}
 
 <!-- cell  -->
 
-[checkbox复选](checkbox.html)
+[checkbox复选](../checkbox/)
 
 {% checkbox 普通的没有勾选的复选框 %}
 {% checkbox checked:true 普通的已勾选的复选框 %}
@@ -152,14 +152,14 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 <!-- cell  -->
 
-[navbar导航栏](navbar.html)
+[navbar导航栏](../navbar/)
 
 {% navbar active:/wiki/ [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
 
 
 <!-- cell  -->
 
-[文本修饰标签集](inline-labels.html)
+[文本修饰标签集](../inline-labels/)
 
 - 这是 {% psw 密码 %} 标签
 - 这是 {% u 下划线 %} 标签
@@ -174,7 +174,7 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 {% box %}
 
-[frame设备框架](frame.html)
+[frame设备框架](../frame/)
 {% frame iphone11 img:/assets/wiki/prohud/toast/demo-loading.png video:/assets/wiki/prohud/toast/demo-loading.mp4 focus:top %}
 
 {% endbox %}

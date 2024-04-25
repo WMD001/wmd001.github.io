@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "wiki": "hexo new page --path wiki/%npm_config_wiki%/index",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",

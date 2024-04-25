@@ -20,11 +20,11 @@ comment:
 base_dir: /wiki/golang-guide/
 toc:
   '基础':
-    - basic
-    - flow-control
-    - more-types
+    - basic/index
+    - flow-control/index
+    - more-types/index
   '方法和接口':
-    - methods
-    - interfaces
+    - methods/index
+    - interfaces/index
   '并发':
-    - concurrency
+    - concurrency/index
