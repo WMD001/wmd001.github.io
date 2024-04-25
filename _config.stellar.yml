@@ -117,7 +117,7 @@ comments:
   # giscus
   # https://giscus.app/zh-CN
   giscus:
-    data-repo: WMD001/wmd001.github.io # [在此输入仓库]
+    data-repo: WMD001/WMD001 # [在此输入仓库]
     data-repo-id: R_kgDOKx3QUw # [在此输入仓库 ID]
     data-category: Announcements # [在此输入分类名]
     data-category-id: DIC_kwDOKx3QU84CbWnF

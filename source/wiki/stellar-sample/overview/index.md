@@ -125,8 +125,8 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 [copy复制行](../copy/)
 
-{% copy git:https prefix:$ wmd001.com/wmd001.github.io  %}
-{% copy wmd001.com/wmd001.github.io prefix:$ %}
+{% copy git:https prefix:$ wmd001.com/WMD001  %}
+{% copy wmd001.com/WMD001 prefix:$ %}
 
 {% endbox %}
 
