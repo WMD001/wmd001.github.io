@@ -8,9 +8,12 @@ title: 组件总览
 
 例如：
 ```markdown 
-{% emoji source name [height] %}
+{% image src [description] [download:bool/string] [width:px] [padding:px] [bg:hex] %}
 ```
-其中，`source`, `name` 为必填项，`height` 为可选项。必填项除特殊说明有默认值可省略外，需按顺序填写，可不写参数名称。可选项需指定参数名称，如`height:2em`，可不按参数顺序书写。
+<p>
+其中，`image`表示`image`标签，`src`为图片地址，`description`为图片描述，`download`为是否允许下载，`width`为图片宽度，`padding`为图片外边距，`bg`为图片背景色。 
+带有`[]`表示为可选参数，带有`:`表示参数需要说明参数名称。没有参数名称的参数需要按照参数顺序书写，指定了参数名称的参数可以在任意位置书写。
+</p>
 
 {% quot el:h2 表达类标签 %}
 

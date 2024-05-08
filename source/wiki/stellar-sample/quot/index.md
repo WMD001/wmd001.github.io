@@ -5,17 +5,22 @@ title: quot 引用
 ---
 
 ## 基础用法
-
-适合居中又醒目的标题
-
 {% quot 不夜侯 %}
-
-支持自定义引号：
-
 {% quot icon:hashtag 不夜侯 %}
 
-其中自定义引号素材在主题配置文件的`tag_plugins.quot`中配置：
+{% folding child:codeblock open:false color:default 查看代码 %}
+```markdown
+{% quot 不夜侯 %}
+{% quot icon:hashtag 不夜侯 %}
+```
 
+{% endfolding %}
+
+### 语法格式
+
+{% quot text [icon:default] [prefix:default] [suffix:default] [el:h2] %}
+
+适合居中又醒目的标题，支持自定义引号。其中自定义引号素材在主题配置文件的`tag_plugins.quot`中配置：
 
 ```yaml  _config.stellar.yml
 tag_plugins:
@@ -36,6 +41,13 @@ tag_plugins:
 从 1.26.5 版本开始，您可以通过 prefix 或 suffix 参数设置任意图标或图片，支持 URL 或 icons.yml 文件中配置，例如：
 
 {% quot prefix:ph:seal-question-fill 图标示例 %}
+
+{% folding child:codeblock open:false color:default 查看代码 %}
+```markdown
+{% quot prefix:ph:seal-question-fill 图标示例 %}
+```
+
+{% endfolding %}
 
 ## 属性
 
