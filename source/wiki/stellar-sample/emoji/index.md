@@ -26,7 +26,7 @@ title: emoji表情
 {% emoji source name [height:20px] %}
 ```
 
-内置了可配置的表情标签，`source`指定表情包来源，`name`指定表情名称。默认使用配置文件中`tag_plugins.emoji.default`配置的默认表情包。
+内置了可配置的表情标签，`source`指定表情包来源，`name`指定表情名称。`source`可省略，默认使用配置文件中`tag_plugins.emoji.default`配置的默认表情包。
 
 ## 指定高度
 

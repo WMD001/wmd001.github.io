@@ -4,7 +4,15 @@ wiki: stellar-sample
 title: 组件总览
 ---
 
-{% quot 表达类标签 %}
+{% quot 语法说明 el:h2 %}
+
+例如：
+```markdown 
+{% emoji source name [height] %}
+```
+其中，`source`, `name` 为必填项，`height` 为可选项。必填项除特殊说明有默认值可省略外，需按顺序填写，可不写参数名称。可选项需指定参数名称，如`height:2em`，可不按参数顺序书写。
+
+{% quot el:h2 表达类标签 %}
 
 {% grid bg:block %}
 <!-- cell -->
@@ -179,8 +187,6 @@ Wx_Msg_Notify，windows平台上微信消息通知工具
 
 {% endbox %}
 
-{% quot 数据集合类标签 %}
+{% quot el:h2 数据集合类标签 %}
 
-{% quot 容器类标签 %}
-
-{% quot 表达类标签 %}
+{% quot el:h2 容器类标签 %}
