@@ -4,45 +4,42 @@ wiki: stellar-sample
 title: Mark标记标签
 ---
 
-{% quot icon:hashtag el:h2 基础用法 %}
+## 基础用法
 
-{% tabs align:center %}
-
-<!-- tab 效果 -->
-
-{% mark 这是一段默认文本 %}
+{% mark 这是一段标记文本 %}
 {% mark 这是一段红色文本 color:red %}
 {% mark 这是一段橙色文本 color:orange %}
-{% mark 这是一段黄色文本 color:yellow %}
-{% mark 这是一段绿色文本 color:green %}
-{% mark 这是一段青色文本 color:cyan %}
-{% mark 这是一段蓝色文本 color:blue %}
-{% mark 这是一段紫色文本 color:purple %}
-{% mark 这是一段亮色文本 color:light %}
-{% mark 这是一段暗色文本 color:dark %}
-{% mark 这是一段警告文本 color:warning %}
-{% mark 这是一段错误文本 color:error %}
 
-<!-- tab 代码 -->
-```
-{% mark 这是一段默认文本 %}
+{% folding child:codeblock open:false color:default 查看代码 %}
+```markdown
+{% mark 这是一段标记文本 %}
 {% mark 这是一段红色文本 color:red %}
 {% mark 这是一段橙色文本 color:orange %}
-{% mark 这是一段黄色文本 color:yellow %}
-{% mark 这是一段绿色文本 color:green %}
-{% mark 这是一段青色文本 color:cyan %}
-{% mark 这是一段蓝色文本 color:blue %}
-{% mark 这是一段紫色文本 color:purple %}
-{% mark 这是一段亮色文本 color:light %}
-{% mark 这是一段暗色文本 color:dark %}
-{% mark 这是一段警告文本 color:warning %}
-{% mark 这是一段错误文本 color:error %}
+```
+{% endfolding %}
+
+### 语法格式
+
+```markdown 
+{% mark text [color] %}
 ```
 
-{% endtabs %}
+## 彩色标记
 
-{% quot icon:hashtag el:h2 属性 %}
+包括：{% mark 默认 %} {% mark 红 color:red %} {% mark 橙 color:orange %} {% mark 黄 color:yellow %} {% mark 绿 color:green %} {% mark 青 color:cyan %} {% mark 蓝 color:blue %} {% mark 紫 color:purple %} {% mark 亮 color:light %} {% mark 暗 color:dark %} {% mark 警告 color:warning %} {% mark 错误 color:error %} 一共 12 种颜色
+
+{% folding child:codeblock open:false color:default 查看代码 %}
+
+```markdown
+包括：{% mark 默认 %} {% mark 红 color:red %} {% mark 橙 color:orange %} {% mark 黄 color:yellow %} {% mark 绿 color:green %} {% mark 青 color:cyan %} {% mark 蓝 color:blue %} {% mark 紫 color:purple %} {% mark 亮 color:light %} {% mark 暗 color:dark %} {% mark 警告 color:warning %} {% mark 错误 color:error %} 一共 12 种颜色
+```
+
+{% endfolding %}
+
+
+## 属性
 
 | 参数    | 说明                                                                                              |
 |-------|-------------------------------------------------------------------------------------------------|
+| text  | 标记文本                                                                                            |
 | color | red \| orange \| yellow \| green \| cyan \| blue \| purple \| light \| dark \| warning \| error |
