@@ -16,13 +16,13 @@ title: copy复制行
 
 ```
 
+{% endfolding %}
+
 ### 语法格式
 
 ```markdown 
 {% copy [git:] text [prefix:] %}
 ```
-
-{% endfolding %}
 
 ## 指定前缀
 
