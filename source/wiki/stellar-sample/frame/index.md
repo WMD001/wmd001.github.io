@@ -22,8 +22,6 @@ title: frame设备框架
 {% frame device [img:src] [video:url] [focus:top/bottom] [alt] %}
 ```
 
-{% note color:default device 目前主题仅支持`iPhone11`，可通过自定义样式实现其他设备  %}
-
 ## 属性
 
 | 属性名    | 说明              |
@@ -33,3 +31,5 @@ title: frame设备框架
 | video  | 视频地址            |
 | focus  | 聚焦位置 top/bottom |
 | alt    | 描述文本            |
+
+{% note color:yellow device 目前主题仅支持`iPhone11`，可通过自定义样式实现其他设备  %}
