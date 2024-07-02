@@ -1,0 +1,33 @@
+name: Learn-Spring-Shell
+title: spring-shell学习笔记
+subtitle: 'spring shell学习笔记'
+tags: spring shell
+icon: /assets/wiki/golang-guide/favicon-gopher.svg
+cover: /assets/wiki/golang-guide/icon.svg
+coverpage: true
+description:
+repo: WMD001/learn-spring-shell
+search:
+  filter: /wiki/learn-spring-shell
+  placeholder: 在笔记中搜索...
+comment_title: '有问题可在评论区交流'
+comment:
+  service: giscus
+  giscus:
+    data-repo: WMD001/learn-spring-shell
+    data-mapping: number
+    data-term: 226
+base_dir: /wiki/learn-spring-shell/
+toc:
+  '开始':
+    - start/index
+  '命令':
+    - commands/index
+  '选项':
+    - options/index
+  '构建':
+    - build/index
+  '终端UI':
+    - terminal-ui/index
+  '自定义':
+    - custom/index
