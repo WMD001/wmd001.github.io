@@ -18,7 +18,7 @@ comment:
     data-mapping: number
     data-term: 226
 base_dir: /wiki/golang-guide/
-toc:
+tree:
   '基础':
     - basic/index
     - flow-control/index

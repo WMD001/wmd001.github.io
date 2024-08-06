@@ -5,6 +5,8 @@ tags: [设计模式]
 categories: [设计模式]
 date: 2024-08-05 21:28:18
 description: 创建型设计模式之原型模式，亦称 克隆、Clone、Prototype
+rightbar: [ghrepo, toc]
+repo: WMD001/design-pattern-4j
 ---
 
 ## 意图

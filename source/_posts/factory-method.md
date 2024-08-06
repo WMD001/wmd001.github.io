@@ -5,6 +5,8 @@ tags: [设计模式]
 categories: [设计模式]
 date: 2024-06-07 16:15:15
 description: 创建型设计模式之工厂方法模式
+rightbar: [ghrepo, toc]
+repo: WMD001/design-pattern-4j
 ---
 
 ## 意图

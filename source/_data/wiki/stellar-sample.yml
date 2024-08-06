@@ -18,7 +18,7 @@ comment:
     data-mapping: number
     data-term: 226
 base_dir: /wiki/stellar-sample/
-toc:
+tree:
   '组件总览':
     - overview/index
   '表达类标签':

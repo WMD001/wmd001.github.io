@@ -5,6 +5,8 @@ tags: [设计模式]
 categories: [设计模式]
 date: 2024-08-04 22:42:31
 description: 创建型设计模式之建造者模式
+rightbar: [ghrepo, toc]
+repo: WMD001/design-pattern-4j
 ---
 
 ## 意图
