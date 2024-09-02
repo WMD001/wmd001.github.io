@@ -484,4 +484,235 @@ func printSlice(s []int) {
 }
 ```
 
+## range
+
+for 循环的 range 形式可遍历切片或映射。
+
+当使用 for 循环遍历切片时，每次迭代都会返回两个值。 第一个值为当前元素的下标，第二个值为该下标所对应元素的一份副本。
+
+可以将下标或值赋予 _ 来忽略它。
+
+```go 
+for i, _ := range pow
+for _, value := range pow
+```
+若你只需要索引，忽略第二个变量即可。
+
+```go 
+for i := range pow
+```
+
+
+```go range.go
+package main
+
+import "fmt"
+
+var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
+
+func main() {
+	for i, v := range pow {
+		fmt.Printf("2**%d = %d\n", i, v)
+	}
+	
+	// 忽略第二个变量
+	for i := range pow {
+		fmt.Printf("%d\n", i)
+	}
+
+	// 使用 _ 忽略下标
+	for _, v := range pow {
+		fmt.Printf("%d\n", v)
+	}
+}
+```
+
 ## 映射
+
+map 映射将键映射到值。
+
+映射的零值为 `nil` 。`nil` 映射既没有键，也不能添加键。
+
+make 函数会返回给定类型的映射，并将其初始化备用。
+
+```go maps.go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+var m map[string]Vertex
+
+func main() {
+	m = make(map[string]Vertex)
+	m["Bell Labs"] = Vertex{
+		40.68433, -74.39967,
+	}
+	fmt.Println(m["Bell Labs"])
+}
+```
+
+### 映射字面量
+
+映射的字面量和结构体类似，只不过必须有键名。
+
+```go map-literals.go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+var m = map[string]Vertex{
+	"Bell Labs": Vertex{
+		40.68433, -74.39967,
+	},
+	"Google": Vertex{
+		37.42202, -122.08408,
+	},
+}
+
+func main() {
+	fmt.Println(m)
+}
+```
+
+若顶层类型只是一个类型名，那么你可以在字面量的元素中省略它。
+
+```go map-literals-continue.go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+var m = map[string]Vertex{
+	"Bell Labs": {40.68433, -74.39967},
+	"Google":    {37.42202, -122.08408},
+}
+
+func main() {
+	fmt.Println(m)
+}
+```
+
+### 修改映射
+
+在映射 m 中插入或修改元素：
+
+```go 
+m[key] = elem
+```
+获取元素：
+
+```go 
+elem = m[key]
+```
+删除元素：
+
+```go 
+delete(m, key)
+```
+通过双赋值检测某个键是否存在：
+
+```go 
+elem, ok = m[key]
+```
+若 key 在 m 中，ok 为 true ；否则，ok 为 false。
+
+若 key 不在映射中，则 elem 是该映射元素类型的零值。
+
+注：若 elem 或 ok 还未声明，你可以使用短变量声明：
+
+```go 
+elem, ok := m[key]
+```
+
+```go mutating-maps.go
+package main
+
+import "fmt"
+
+func main() {
+	m := make(map[string]int)
+
+	m["答案"] = 42
+	fmt.Println("值：", m["答案"])
+
+	m["答案"] = 48
+	fmt.Println("值：", m["答案"])
+
+	delete(m, "答案")
+	fmt.Println("值：", m["答案"])
+
+	v, ok := m["答案"]
+	fmt.Println("值：", v, "是否存在？", ok)
+}
+```
+
+## 函数值
+
+函数也是值。它们可以像其他值一样传递。
+
+函数值可以用作函数的参数或返回值。
+
+```go function-values.go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func compute(fn func(float64, float64) float64) float64 {
+	return fn(3, 4)
+}
+
+func main() {
+	hypot := func(x, y float64) float64 {
+		return math.Sqrt(x*x + y*y)
+	}
+	fmt.Println(hypot(5, 12))
+
+	fmt.Println(compute(hypot))
+	fmt.Println(compute(math.Pow))
+}
+
+```
+
+## 函数闭包
+
+Go 函数可以是一个闭包。闭包是一个函数值，它引用了其函数体之外的变量。 该函数可以访问并赋予其引用的变量值，换句话说，该函数被“绑定”到了这些变量。
+
+例如，函数 adder 返回一个闭包。每个闭包都被绑定在其各自的 sum 变量上。
+
+```go function-closures.go
+package main
+
+import "fmt"
+
+func adder() func(int) int {
+	sum := 0
+	return func(x int) int {
+		sum += x
+		return sum
+	}
+}
+
+func main() {
+	pos, neg := adder(), adder()
+	for i := 0; i < 10; i++ {
+		fmt.Println(
+			pos(i),
+			neg(-2*i),
+		)
+	}
+}
+```
