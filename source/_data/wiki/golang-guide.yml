@@ -14,9 +14,19 @@ comment_title: '有问题可在评论区交流'
 comment:
   service: giscus
   giscus:
-    data-repo: WMD001/hello-go
-    data-mapping: number
-    data-term: 226
+    data-repo: WMD001/hello-go # [在此输入仓库]
+    data-repo-id: R_kgDOLu0ZZg # [在此输入仓库 ID]
+    data-category: Announcements # [在此输入分类名]
+    data-category-id: DIC_kwDOLu0ZZs4CiJfa
+    data-mapping: title
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: "https://wmd001.top/css/lxgw-wenkai.css"
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
 base_dir: /wiki/golang-guide/
 tree:
   '基础':

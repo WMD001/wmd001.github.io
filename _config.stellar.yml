@@ -118,9 +118,9 @@ comments:
   # https://giscus.app/zh-CN
   giscus:
     data-repo: WMD001/WMD001 # [在此输入仓库]
-    data-repo-id: R_kgDOKx3QUw # [在此输入仓库 ID]
+    data-repo-id: R_kgDOHztmqw # [在此输入仓库 ID]
     data-category: Announcements # [在此输入分类名]
-    data-category-id: DIC_kwDOKx3QU84CbWnF
+    data-category-id: DIC_kwDOHztmq84CiJhA
     data-mapping: title
     data-strict: 0
     data-reactions-enabled: 1

@@ -13,10 +13,6 @@ search:
 comment_title: '有问题可在评论区交流'
 comment:
   service: giscus
-  giscus:
-    data-repo: WMD001/WMD001
-    data-mapping: number
-    data-term: 226
 base_dir: /wiki/stellar-sample/
 tree:
   '组件总览':
