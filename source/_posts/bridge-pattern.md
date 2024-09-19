@@ -105,6 +105,8 @@ public class AliPay implements PayWay{
 
 ```
 
+{% endfolding %}
+
 ### 3. 平台商铺实现
 
 京东平台
