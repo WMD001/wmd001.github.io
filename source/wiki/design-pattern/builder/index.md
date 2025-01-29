@@ -1,6 +1,6 @@
 ---
 title: 建造者模式（生成器模式）
-topic: design-pattern
+wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]
 date: 2024-08-04 22:42:31

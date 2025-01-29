@@ -1,5 +1,6 @@
 ---
 title: 桥接模式
+wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]
 date: 2024-09-19 23:39:22

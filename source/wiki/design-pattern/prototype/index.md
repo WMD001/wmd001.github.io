@@ -1,6 +1,6 @@
 ---
 title: 原型模式
-topic: design-pattern
+wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]
 date: 2024-08-05 21:28:18

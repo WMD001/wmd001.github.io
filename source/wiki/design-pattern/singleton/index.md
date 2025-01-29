@@ -1,5 +1,6 @@
 ---
 title: 单例模式
+wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]
 date: 2024-08-06 17:26:00

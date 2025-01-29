@@ -1,6 +1,6 @@
 ---
 title: 工厂方法
-topic: design-pattern
+wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]
 date: 2024-06-07 16:15:15

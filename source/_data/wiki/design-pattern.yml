@@ -1,0 +1,56 @@
+name: Design-Pattern
+title: 设计模式
+subtitle: 'java设计模式'
+tags: 设计模式
+icon:
+cover:
+coverpage: true
+description:
+repo: WMD001/design-pattern-4j
+search:
+  filter: /wiki/design-pattern
+  placeholder: 在design-pattern中搜索...
+comment_title: '有问题可在评论区交流'
+comment:
+  service: giscus
+  giscus:
+    data-repo: WMD001/hello-go # [在此输入仓库]
+    data-repo-id: R_kgDOMFI3HA # [在此输入仓库 ID]
+    data-category: Announcements # [在此输入分类名]
+    data-category-id: DIC_kwDOMFI3HM4Cmb0A
+    data-mapping: title
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: "https://wmd001.top/css/lxgw-wenkai.css"
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
+base_dir: /wiki/design-pattern/
+tree:
+  '创建型':
+    - abstract-factory/index
+    - factory-method/index
+    - builder/index
+    - singleton/index
+    - prototype/index
+  '结构型':
+    - adapter/index
+    - bridge/index
+    - composite/index
+    - decorator/index
+    - facade/index
+    - flyweight/index
+    - proxy/index
+  '行为模式':
+    - chain-of-responsibility/index
+    - command/index
+    - iterator/index
+    - mediator/index
+    - memento/index
+    - observer/index
+    - state/index
+    - strategy/index
+    - template-method/index
+    - visitor/index
