@@ -55,6 +55,9 @@ footer:
     comments:
       icon: '<i class="iconfont icon-comments-fill"></i>'
       url: https://wmd001.top/about/#comments
+    theme:
+      icon: default:theme
+      onclick: 'switchTheme()'
 
   # 页面底部的站点导航
   sitemap:
