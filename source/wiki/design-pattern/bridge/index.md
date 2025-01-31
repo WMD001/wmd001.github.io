@@ -1,5 +1,5 @@
 ---
-title: 桥接模式
+title: 桥接
 wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]
