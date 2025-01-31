@@ -1,5 +1,5 @@
 ---
-title: 单例模式
+title: 单例
 wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]

@@ -1,5 +1,5 @@
 ---
-title: 建造者模式（生成器模式）
+title: 建造者（生成器）
 wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]

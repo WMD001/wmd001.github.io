@@ -1,5 +1,5 @@
 ---
-title: 原型模式
+title: 原型
 wiki: design-pattern
 tags: [设计模式]
 categories: [设计模式]
