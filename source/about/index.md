@@ -15,11 +15,12 @@ rightbar: [xingzuo, new-friend, toc]
 <img height="32px" alt="XAOXUU" src="/assets/logo.png">
 
 
-<h2>  {% quot icon:hashtag 关于本站 %} </h2>
+## 关于本站
 
 本站使用[Hexo](https://hexo.io)搭建。选用[Stellar](https://xaoxuu.com/wiki/stellar)主题。
 由于本人主要从事JAVA开发，所以博客内容将以JAVA为主，但也会包含其它的语言以及中间件，例如python、mysql等。
 
-<h2> {% quot icon:hashtag 关于站主 %} </h2>
+## 技术栈
 
-Java开发工程狮，前后端可以全干。React、Vue也能{% kbd Ctrl C %}和{% kbd V %}，熟悉`Python`、`Goland`、`JavaScript`等单词的写法。
+{% image https://skillicons.dev/icons?i=java,spring,maven,gradle,jenkins,python,regex,javascript,ts,react,vue,html,css,markdown,linux,mysql,mongodb,redis,sqlite,elasticsearch,nginx,git,docker,idea,pycharm,webstorm,vscode&theme=light %}
+
