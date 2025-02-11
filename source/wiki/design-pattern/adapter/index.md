@@ -91,4 +91,4 @@ Service: Specific request.
 
 在这个示例中，客户端代码使用了适配器模式来调用服务类的方法。通过适配器，客户端可以使用与其接口兼容的方式与服务类交互，而不需要改变服务类的代码。
 
-{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/main/java/top/wmd001/structural/adapter 源码地址 desc:false %}
+{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/top/wmd001/structural/adapter 源码地址 desc:false %}

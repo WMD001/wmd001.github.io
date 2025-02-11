@@ -124,4 +124,4 @@ Leaf 3 operation.
 
 在这个示例中，客户端代码使用了组合模式来操作叶节点和容器。通过组合模式，客户端可以像使用独立对象一样使用组合对象，从而实现更灵活的对象结构。
 
-{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/main/java/top/wmd001/structural/composite 源码地址 desc:false %}
+{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/top/wmd001/structural/composite 源码地址 desc:false %}

@@ -143,4 +143,4 @@ Video system is turned off.
 Projector is turned off.
 ```
 
-{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/main/java/top/wmd001/structural/facade 源码地址 desc:false %}
+{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/top/wmd001/structural/facade 源码地址 desc:false %}

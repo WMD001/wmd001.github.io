@@ -170,4 +170,4 @@ Executing Oracle query: SELECT * FROM users
 
 在这个示例中，客户端代码使用了抽象工厂模式来创建数据库连接和执行查询的对象。通过传入不同的工厂实例（`MySQLFactory` 或 `OracleFactory`），客户端可以在运行时选择使用不同的数据库，而不需要改变客户端代码。这种方式使得系统更具可扩展性和可维护性，可以轻松地支持更多种类的数据库。
 
-{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/main/java/top/wmd001/creational/abstract_factory 源码地址 desc:false %}
+{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/top/wmd001/creational/abstract_factory 源码地址 desc:false %}

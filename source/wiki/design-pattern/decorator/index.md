@@ -128,4 +128,4 @@ Decorated with A and B: ConcreteDecoratorB(ConcreteDecoratorA(ConcreteComponent)
 
 在这个示例中，客户端代码使用了装饰模式来动态地为对象添加行为。通过装饰模式，客户端可以在运行时组合不同的装饰，从而实现更灵活的对象行为。
 
-{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/main/java/top/wmd001/structural/decorator 源码地址 desc:false %}
+{% link https://github.com/WMD001/design-pattern-4j/tree/main/src/top/wmd001/structural/decorator 源码地址 desc:false %}
