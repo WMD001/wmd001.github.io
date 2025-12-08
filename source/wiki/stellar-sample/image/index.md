@@ -6,11 +6,11 @@ title: image图片标签
 
 ## 基础用法
 
-{% image https://staticre.deepal.com.cn/20231107-office/office/assets/ica/pc/redpoint.jpg 深蓝sl03 download:true fancybox:true %}
+{% image https://staticre.deepal.com.cn/20231107-office/office/assets/ica/pc/redpoint.jpg 深蓝sl03 download:true fancybox:true ratio:1920/1080 %}
 
 {% folding child:codeblock open:false color:default 查看代码 %}
 ```markdown
-{% image https://staticre.deepal.com.cn/20231107-office/office/assets/ica/pc/redpoint.jpg 深蓝sl03 download:true fancybox:true %}
+{% image https://staticre.deepal.com.cn/20231107-office/office/assets/ica/pc/redpoint.jpg 深蓝sl03 download:true fancybox:true ratio:1920/1080 %}
 ```
 
 {% endfolding %}

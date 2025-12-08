@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: WMD001
+title: 夜航船
 subtitle: '我心无拘，吾道无穷 | 勇敢的人先享受世界'
 avatar: https://avatars.githubusercontent.com/u/35905864?v=4 # 您的头像链接
 favicon: https://avatars.githubusercontent.com/u/35905864?v=4 # 您的网站icon
 description: ''
 keywords:
-author: Mr.W
+author: 不夜侯
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://wmd001.com
+url: http://wmd001.top
 permalink: /blog/:year:month:day/
 permalink_defaults:
 pretty_urls:

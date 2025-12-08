@@ -165,3 +165,13 @@ site_tree:
   home:
     leftbar: welcome, new-friend, recent
     rightbar: xingzuo, timeline
+
+
+# 基础依赖
+dependencies:
+  jquery: https://gcore.jsdelivr.net/npm/jquery@3.7/dist/jquery.min.js
+  marked: https://gcore.jsdelivr.net/npm/marked@13.0/lib/marked.umd.min.js
+  lazyload:
+    js: https://gcore.jsdelivr.net/npm/vanilla-lazyload@19.1/dist/lazyload.min.js
+    transition: fade # blur, fade
+    fix_ratio: false # true / false

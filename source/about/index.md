@@ -22,5 +22,5 @@ rightbar: [xingzuo, new-friend, toc]
 
 ## 技术栈
 
-{% image https://skillicons.dev/icons?i=java,spring,maven,gradle,jenkins,python,regex,javascript,ts,react,vue,html,css,markdown,linux,mysql,mongodb,redis,sqlite,elasticsearch,nginx,git,docker,idea,pycharm,webstorm,vscode&theme=light %}
+{% image https://skillicons.dev/icons?i=java,spring,maven,gradle,jenkins,python,regex,javascript,ts,react,vue,html,css,markdown,linux,mysql,mongodb,redis,sqlite,elasticsearch,nginx,git,docker,idea,pycharm,webstorm,vscode&theme=light  ratio:835.5/104.25 %}
 
